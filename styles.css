@@ -51,7 +51,7 @@ body{
    }
    .health-talks .card2{
       width: 600px;
-      height:650px;
+      height:700px;
       border: 2px solid purple;
       border-radius: 5px;
       padding: 10px;
@@ -146,3 +146,7 @@ table > caption{
   
 }
 
+
+select{
+   background-color: gray;
+}
