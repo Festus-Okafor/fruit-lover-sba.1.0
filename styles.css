@@ -1,5 +1,5 @@
 body{
-   background-color: beige;
+   background-color:navy;
    margin:0px;
 }
 .navigation{
@@ -39,10 +39,11 @@ body{
       padding: 10px;
       color: lightblue;
    }
+   /* below is designs for the forms and input fields*/
 form {
    background-color: lightblue;
    width: 60%;
-   height: 70%;
+   height: 820px;
    margin-top: 40px;
    margin-left:auto;
    margin-right: auto;
@@ -57,23 +58,55 @@ form {
 }
 label {
    font-size: 20px;
-}
+   margin-left: 15px;
+}/*
 fieldset>input{
    padding-left: 80px;
    padding-right:80px;
    padding-top: 10px;
    padding-bottom: 10px;
    border: pink;
-   border-radius: 5px;
+   border-radius: 8px;
    
 }
+   */
 fieldset>div{
-   padding-left: 200px;
-   padding-right:200px;
-   padding-top: 10px;
+   padding-left: 20px;
+   padding-right:300px;
+   padding-top: 5px;
    padding-bottom: 10px;
    border: pink;
    border-radius: 5px;
+}
+h1{
+   font-size: 28px;
+   color: gray;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+   font-size: 18px;
+   color: gray;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label{
+   display: flex;
+   margin-top: 5px;
+   font-size: 18px;
+
+}
+input{
+   padding-left: 40px;
+   padding-right: 4em;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 5px;
+}
+button{
+   padding: 5px;
+   font-size: 20px;
+   text-align: center;
+   background-color: orange;
+   color: gray;
 }
 form >img{
    position: absolute;
