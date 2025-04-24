@@ -1,3 +1,83 @@
 body{
-   background-color: yellow;
+   background-color: beige;
+   margin:0px;
+}
+.navigation{
+   display: flex;
+   justify-content:space-around;
+   align-items: center;;
+   width: 100%;
+   height: 4rem;
+   background-color: purple;
+}
+.navigation .nav-items a{
+   font-size: 16px;
+   text-decoration: none;
+   text-align: center;
+   color: gray;
+}
+.health-talks{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
+
+   }
+   .health-talks .card1{
+      width: 600px;
+      height:500px;
+      border: 2px solid purple;
+      border-radius: 5px;
+      padding: 10px;
+      color: lightblue;
+      
+   }
+   .health-talks .card2{
+      width: 600px;
+      height:650px;
+      border: 2px solid purple;
+      border-radius: 5px;
+      padding: 10px;
+      color: lightblue;
+   }
+form {
+   background-color: lightblue;
+   width: 60%;
+   height: 70%;
+   margin-top: 40px;
+   margin-left:auto;
+   margin-right: auto;
+   border: 2px solid blueviolet;
+   text-align: center;
+   color: purple;
+   padding:20px;
+   display: flex;
+   flex-direction:column;
+   gap: 20px;
+   border-radius: 5px;
+}
+label {
+   font-size: 20px;
+}
+fieldset>input{
+   padding-left: 80px;
+   padding-right:80px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: pink;
+   border-radius: 5px;
+   
+}
+fieldset>div{
+   padding-left: 200px;
+   padding-right:200px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border: pink;
+   border-radius: 5px;
+}
+form >img{
+   position: absolute;
+   border-radius: 12px;
+   top: 120px;
+   right: 610px;
 }
